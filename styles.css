@@ -1,0 +1,67 @@
+/* Reset margin dan padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.film-list {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.film-list h2 {
+    margin-bottom: 15px;
+}
+
+.film-list ul {
+    list-style: none;
+}
+
+.film-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.film-list li:last-child {
+    border-bottom: none;
+}
+
+.film-list a {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 18px;
+}
+
+.film-list a:hover {
+    color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
